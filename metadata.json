@@ -1,0 +1,6 @@
+{
+  "name": "Z-FINANCE 1.0.0 - Enterprise ERP Suite",
+  "description": "Comprehensive Enterprise Financial, Operations, HR, Project, Communication, and Calendar & Scheduling Management Platform for Z-FINANCE 1.0.0.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
