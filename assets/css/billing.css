@@ -1,0 +1,51 @@
+/* Z-FINANCE 1.0.0 - Billing & Document Styling */
+
+.billing-watermark-draft {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-30deg);
+  font-size: 4rem;
+  font-weight: 900;
+  color: rgba(226, 232, 240, 0.4);
+  pointer-events: none;
+  text-transform: uppercase;
+  user-select: none;
+  z-index: 0;
+}
+
+.signature-pad-canvas {
+  border: 2px dashed #cbd5e1;
+  border-radius: 0.75rem;
+  background-color: #f8fafc;
+  cursor: crosshair;
+}
+
+.signature-pad-canvas:hover {
+  border-color: #6366f1;
+}
+
+.status-badge-draft {
+  background-color: #f1f5f9;
+  color: #475569;
+}
+
+.status-badge-sent {
+  background-color: #e0f2fe;
+  color: #0369a1;
+}
+
+.status-badge-paid {
+  background-color: #d1fae5;
+  color: #065f46;
+}
+
+.status-badge-overdue {
+  background-color: #fee2e2;
+  color: #991b1b;
+}
+
+.status-badge-accepted {
+  background-color: #dcfce7;
+  color: #15803d;
+}

@@ -1,0 +1,52 @@
+/* Z-FINANCE 1.0.0 - Customer Management Styling */
+
+.crm-badge-vip {
+    background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+    color: #ffffff;
+    font-weight: 600;
+    padding: 0.2rem 0.5rem;
+    border-radius: 9999px;
+    font-size: 0.75rem;
+}
+
+.crm-type-chip {
+    padding: 0.15rem 0.6rem;
+    border-radius: 6px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.crm-type-individual { background-color: #e0f2fe; color: #0369a1; }
+.crm-type-company { background-color: #dcfce7; color: #15803d; }
+.crm-type-organization { background-color: #f3e8ff; color: #6b21a8; }
+.crm-type-ngo { background-color: #fef3c7; color: #b45309; }
+
+.crm-avatar-lg {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #e5e7eb;
+}
+
+.crm-comm-timeline {
+    border-left: 2px solid #e5e7eb;
+    padding-left: 1rem;
+    margin-left: 0.5rem;
+}
+
+.crm-comm-item {
+    position: relative;
+    margin-bottom: 1.25rem;
+}
+
+.crm-comm-dot {
+    position: absolute;
+    left: -1.35rem;
+    top: 0.2rem;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #2563eb;
+}

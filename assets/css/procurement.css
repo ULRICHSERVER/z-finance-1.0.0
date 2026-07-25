@@ -1,0 +1,33 @@
+/* Z-FINANCE 1.0.0 - Enterprise Procurement & Supplier Management Styling */
+
+.procurement-badge-po {
+  background-color: #dbeafe;
+  color: #1d4ed8;
+  font-weight: 600;
+  padding: 0.2rem 0.6rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+}
+
+.procurement-badge-rfq {
+  background-color: #f3e8ff;
+  color: #7e22ce;
+  font-weight: 600;
+  padding: 0.2rem 0.6rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+}
+
+.vendor-rating-stars {
+  color: #f59e0b;
+  font-weight: bold;
+}
+
+.three-way-match-badge {
+  background-color: #d1fae5;
+  color: #047857;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.375rem;
+  font-size: 0.7rem;
+  font-weight: 700;
+}

@@ -1,0 +1,90 @@
+/* Z-FINANCE 1.0.0 - User Management System Styling */
+
+.user-status-pill {
+    padding: 0.25rem 0.6rem;
+    border-radius: 50rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+}
+
+.status-active { background-color: rgba(16, 185, 129, 0.15); color: #059669; border: 1px solid rgba(16, 185, 129, 0.3); }
+.status-inactive { background-color: rgba(107, 114, 128, 0.15); color: #4b5563; border: 1px solid rgba(107, 114, 128, 0.3); }
+.status-pending { background-color: rgba(245, 158, 11, 0.15); color: #d97706; border: 1px solid rgba(245, 158, 11, 0.3); }
+.status-suspended { background-color: rgba(239, 68, 68, 0.15); color: #dc2626; border: 1px solid rgba(239, 68, 68, 0.3); }
+.status-blocked { background-color: rgba(17, 24, 39, 0.85); color: #f9fafb; border: 1px solid #111827; }
+
+.user-avatar-container {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    overflow: hidden;
+    background: #e2e8f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    color: #334155;
+    position: relative;
+}
+
+.online-indicator-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #10b981;
+    border: 2px solid #ffffff;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.subscription-badge {
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.sub-free { background-color: #f3f4f6; color: #4b5563; }
+.sub-basic { background-color: #e0f2fe; color: #0369a1; }
+.sub-professional { background-color: #f3e8ff; color: #6b21a8; }
+.sub-enterprise { background-color: #fef3c7; color: #92400e; }
+
+.impersonation-warning-banner {
+    background: linear-gradient(90deg, #dc2626 0%, #991b1b 100%);
+    color: #ffffff;
+    padding: 0.6rem 1.25rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 4px 12px rgba(220, 38, 38, 0.3);
+}
+
+.user-timeline-feed {
+    position: relative;
+    padding-left: 1.5rem;
+    border-left: 2px solid #e2e8f0;
+}
+
+.user-timeline-item {
+    position: relative;
+    margin-bottom: 1.25rem;
+}
+
+.user-timeline-dot {
+    position: absolute;
+    left: -1.95rem;
+    top: 0.2rem;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #3b82f6;
+    border: 2px solid #ffffff;
+}

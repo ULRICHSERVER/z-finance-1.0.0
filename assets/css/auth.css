@@ -1,0 +1,77 @@
+/* =============================================================================
+   Z-FINANCE 1.0.0 - AUTHENTICATION SUITE STYLESHEET
+   ============================================================================= */
+
+/* Modal Transitions & Cards */
+.auth-modal .modal-content {
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 20px 40px rgba(15, 23, 42, 0.15);
+  transition: all 0.3s ease;
+}
+
+/* Dark Mode Adjustments */
+[data-bs-theme="dark"] .auth-modal .modal-content,
+.dark-theme .auth-modal .modal-content {
+  background-color: #0f172a;
+  color: #f8fafc;
+  border: 1px solid #1e293b !important;
+}
+
+[data-bs-theme="dark"] .auth-modal .modal-header,
+.dark-theme .auth-modal .modal-header {
+  border-bottom-color: #1e293b;
+}
+
+[data-bs-theme="dark"] .auth-modal .modal-footer,
+.dark-theme .auth-modal .modal-footer {
+  background-color: #1e293b !important;
+  border-top-color: #334155;
+}
+
+[data-bs-theme="dark"] .auth-modal .form-control,
+[data-bs-theme="dark"] .auth-modal .form-select,
+.dark-theme .auth-modal .form-control,
+.dark-theme .auth-modal .form-select {
+  background-color: #1e293b;
+  border-color: #334155;
+  color: #f8fafc;
+}
+
+[data-bs-theme="dark"] .auth-modal .input-group-text,
+.dark-theme .auth-modal .input-group-text {
+  background-color: #334155 !important;
+  border-color: #475569;
+  color: #cbd5e1;
+}
+
+/* Password Strength Bar Colors */
+.password-weak { background-color: #dc3545 !important; }
+.password-fair { background-color: #ffc107 !important; }
+.password-strong { background-color: #20c997 !important; }
+.password-vstrong { background-color: #198754 !important; }
+
+/* Active Session Badge */
+.session-card {
+  border-left: 4px solid #0d6efd;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.session-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+.session-card.current-session {
+  border-left-color: #198754;
+  background-color: rgba(25, 135, 84, 0.04);
+}
+
+/* Offline Standby Toast / Banner */
+.auth-offline-banner {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1090;
+  max-width: 380px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}

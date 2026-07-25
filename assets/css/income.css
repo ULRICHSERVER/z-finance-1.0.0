@@ -1,0 +1,56 @@
+/* Z-FINANCE 1.0.0 - Income Management Module Styling */
+
+.income-kpi-card {
+  border-radius: 12px;
+  border: 1px solid rgba(226, 232, 240, 0.8);
+  background: #ffffff;
+  padding: 1.25rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.income-kpi-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.income-status-badge {
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.25rem 0.65rem;
+  border-radius: 9999px;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+}
+
+.income-status-received {
+  background-color: #d1fae5;
+  color: #065f46;
+}
+
+.income-status-pending {
+  background-color: #fef3c7;
+  color: #92400e;
+}
+
+.income-status-cancelled {
+  background-color: #fee2e2;
+  color: #991b1b;
+}
+
+.income-status-refunded {
+  background-color: #e0e7ff;
+  color: #3730a3;
+}
+
+.income-offline-banner {
+  background: #fffbeb;
+  border: 1px solid #fde68a;
+  color: #92400e;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  font-size: 0.875rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

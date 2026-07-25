@@ -1,0 +1,38 @@
+/* Z-FINANCE 1.0.0 - Project & Task Management Styles */
+
+.project-card-active {
+  border-left: 4px solid #10b981;
+}
+
+.project-card-delayed {
+  border-left: 4px solid #f59e0b;
+}
+
+.project-card-urgent {
+  border-left: 4px solid #ef4444;
+}
+
+.task-badge-new {
+  background-color: #e0f2fe;
+  color: #0369a1;
+}
+
+.task-badge-in_progress {
+  background-color: #fef3c7;
+  color: #b45309;
+}
+
+.task-badge-completed {
+  background-color: #d1fae5;
+  color: #047857;
+}
+
+.timer-running-pulse {
+  animation: pulse-red 1.5s infinite;
+}
+
+@keyframes pulse-red {
+  0% { box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.4); }
+  70% { box-shadow: 0 0 0 8px rgba(239, 68, 68, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(239, 68, 68, 0); }
+}

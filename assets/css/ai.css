@@ -1,0 +1,27 @@
+/* Z-FINANCE 1.0.0 - AI & Business Intelligence Styling */
+
+.ai-chat-bubble-user {
+  background-color: #2563eb;
+  color: #ffffff;
+  border-radius: 16px 16px 2px 16px;
+}
+
+.ai-chat-bubble-assistant {
+  background-color: #f1f5f9;
+  color: #0f172a;
+  border-radius: 16px 16px 16px 2px;
+  border: 1px solid #e2e8f0;
+}
+
+.ai-pulse-badge {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}

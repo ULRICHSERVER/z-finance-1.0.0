@@ -1,0 +1,38 @@
+/* Z-FINANCE 1.0.0 - Workflow Engine & Rules Builder Styling */
+
+.workflow-node {
+  border: 2px solid #e2e8f0;
+  border-radius: 12px;
+  background-color: #ffffff;
+  padding: 16px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+  transition: all 0.2s ease-in-out;
+}
+
+.workflow-node:hover {
+  border-color: #2563eb;
+  box-shadow: 0 10px 15px -3px rgba(37, 99, 235, 0.1);
+}
+
+.workflow-node-trigger {
+  border-left: 6px solid #2563eb;
+}
+
+.workflow-node-condition {
+  border-left: 6px solid #f59e0b;
+}
+
+.workflow-node-action {
+  border-left: 6px solid #10b981;
+}
+
+.workflow-node-approval {
+  border-left: 6px solid #8b5cf6;
+}
+
+.workflow-connector-line {
+  width: 2px;
+  height: 24px;
+  background-color: #cbd5e1;
+  margin: 0 auto;
+}

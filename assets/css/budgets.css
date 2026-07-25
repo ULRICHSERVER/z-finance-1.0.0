@@ -1,0 +1,40 @@
+/* Z-FINANCE 1.0.0 - Budget Planning & Financial Goals Styling */
+
+.budget-kpi-card {
+  border-radius: 12px;
+  border: 1px solid rgba(226, 232, 240, 0.8);
+  background: #ffffff;
+  padding: 1.25rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.budget-kpi-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.budget-progress-bar {
+  height: 8px;
+  border-radius: 9999px;
+  background-color: #f1f5f9;
+  overflow: hidden;
+}
+
+.budget-progress-fill {
+  height: 100%;
+  border-radius: 9999px;
+  transition: width 0.3s ease;
+}
+
+.budget-progress-normal {
+  background-color: #10b981;
+}
+
+.budget-progress-warning {
+  background-color: #f59e0b;
+}
+
+.budget-progress-danger {
+  background-color: #ef4444;
+}

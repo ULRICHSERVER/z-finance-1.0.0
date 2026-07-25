@@ -1,0 +1,24 @@
+/* Z-FINANCE 1.0.0 - Developer Portal & API Platform Styling */
+
+.api-endpoint-badge {
+  display: inline-block;
+  font-family: monospace;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 11px;
+}
+
+.api-get { background-color: #dbeafe; color: #1e40af; }
+.api-post { background-color: #d1fae5; color: #065f46; }
+.api-put { background-color: #fef3c7; color: #92400e; }
+.api-delete { background-color: #ffe4e6; color: #9f1239; }
+
+.code-block-dark {
+  background-color: #0f172a;
+  color: #f8fafc;
+  font-family: monospace;
+  padding: 16px;
+  border-radius: 8px;
+  overflow-x: auto;
+}

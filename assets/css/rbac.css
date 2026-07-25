@@ -1,0 +1,83 @@
+/* Z-FINANCE 1.0.0 - Enterprise RBAC & Permission Matrix Styles */
+
+.rbac-matrix-table {
+  font-size: 0.875rem;
+}
+
+.rbac-matrix-table th {
+  background-color: var(--bs-tertiary-bg, #f8f9fa);
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 0.05em;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.rbac-group-header {
+  background-color: rgba(var(--bs-primary-rgb), 0.05) !important;
+  font-weight: 700;
+  color: var(--bs-primary);
+}
+
+.rbac-perm-checkbox {
+  width: 1.15rem;
+  height: 1.15rem;
+  cursor: pointer;
+}
+
+.rbac-role-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border-radius: 0.75rem;
+}
+
+.rbac-role-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.08) !important;
+}
+
+.rbac-hierarchy-pill {
+  font-size: 0.75rem;
+  padding: 0.25rem 0.6rem;
+  border-radius: 2rem;
+  font-weight: 600;
+}
+
+.rbac-badge-super {
+  background-color: #6366f1;
+  color: white;
+}
+
+.rbac-badge-admin {
+  background-color: #0284c7;
+  color: white;
+}
+
+.rbac-badge-manager {
+  background-color: #0d9488;
+  color: white;
+}
+
+.rbac-badge-staff {
+  background-color: #64748b;
+  color: white;
+}
+
+.rbac-override-badge {
+  font-size: 0.7rem;
+  padding: 0.2rem 0.4rem;
+  border-radius: 0.25rem;
+}
+
+.rbac-override-grant {
+  background-color: #dcfce7;
+  color: #166534;
+  border: 1px solid #86efac;
+}
+
+.rbac-override-deny {
+  background-color: #fee2e2;
+  color: #991b1b;
+  border: 1px solid #fca5a5;
+}

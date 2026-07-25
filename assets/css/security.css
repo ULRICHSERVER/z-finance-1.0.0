@@ -1,0 +1,25 @@
+/* Z-FINANCE 1.0.0 - Security Center & SOC Styling */
+
+.threat-badge-normal {
+  background-color: #d1fae5;
+  color: #065f46;
+  font-weight: 700;
+  padding: 4px 12px;
+  border-radius: 9999px;
+}
+
+.threat-badge-high {
+  background-color: #ffe4e6;
+  color: #9f1239;
+  font-weight: 700;
+  padding: 4px 12px;
+  border-radius: 9999px;
+}
+
+.soc-grid-card {
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  background-color: #ffffff;
+  padding: 20px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}

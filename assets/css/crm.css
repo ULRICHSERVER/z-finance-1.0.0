@@ -1,0 +1,29 @@
+/* Z-FINANCE 1.0.0 - Enterprise CRM, Subscriptions, Memberships & Support Styling */
+
+.crm-pipeline-stage-won {
+  background-color: #d1fae5;
+  color: #047857;
+  font-weight: 700;
+  padding: 0.2rem 0.6rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+}
+
+.crm-pipeline-stage-proposal {
+  background-color: #dbeafe;
+  color: #1d4ed8;
+  font-weight: 700;
+  padding: 0.2rem 0.6rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+}
+
+.crm-vip-badge {
+  background-color: #fef3c7;
+  color: #b45309;
+  border: 1px solid #f59e0b;
+  font-weight: 700;
+  padding: 0.15rem 0.5rem;
+  border-radius: 0.375rem;
+  font-size: 0.7rem;
+}

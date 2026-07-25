@@ -1,0 +1,27 @@
+/* Z-FINANCE 1.0.0 - Enterprise HRMS, Payroll & ESS Styling */
+
+.hr-badge-active {
+  background-color: #d1fae5;
+  color: #047857;
+  font-weight: 600;
+  padding: 0.2rem 0.6rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+}
+
+.hr-badge-probation {
+  background-color: #fef3c7;
+  color: #b45309;
+  font-weight: 600;
+  padding: 0.2rem 0.6rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+}
+
+.hr-attendance-qr-box {
+  border: 2px dashed #cbd5e1;
+  background-color: #f8fafc;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  text-align: center;
+}

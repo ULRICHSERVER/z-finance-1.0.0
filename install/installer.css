@@ -1,0 +1,45 @@
+/* Z-FINANCE Installer Styling */
+:root {
+  --indigo-50: #eef2ff;
+  --indigo-100: #e0e7ff;
+  --indigo-600: #4f46e5;
+  --indigo-700: #4338ca;
+  --slate-900: #0f172a;
+}
+
+body.bg-slate-900 {
+  background-color: var(--slate-900) !important;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+}
+
+.text-indigo-600 { color: var(--indigo-600) !important; }
+.text-indigo-700 { color: var(--indigo-700) !important; }
+.bg-indigo-50 { background-color: var(--indigo-50) !important; }
+.bg-indigo-100 { background-color: var(--indigo-100) !important; }
+.bg-indigo-600 { background-color: var(--indigo-600) !important; }
+
+.btn-indigo {
+  background-color: var(--indigo-600);
+  color: #fff;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  padding: 0.625rem 1.25rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-indigo:hover {
+  background-color: var(--indigo-700);
+  color: #fff;
+}
+
+.font-mono {
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+.card {
+  border-radius: 1rem;
+}
+
+.table-status td {
+  vertical-align: middle;
+}
