@@ -1,0 +1,22 @@
+User-agent: *
+Allow: /
+Allow: /about
+Allow: /features
+Allow: /solutions
+Allow: /pricing
+Allow: /faq
+Allow: /blog
+Allow: /documentation
+Allow: /download
+Allow: /contact
+Allow: /privacy
+Allow: /terms
+Allow: /cookies
+
+Disallow: /admin/
+Disallow: /api/
+Disallow: /install/
+Disallow: /config/
+Disallow: /cache/
+
+Sitemap: https://z-finance.app/sitemap.xml
